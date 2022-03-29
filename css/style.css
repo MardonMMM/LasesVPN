@@ -1,0 +1,408 @@
+body h1,h2,h3,h4,h5 ,p ,ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-color: linear-gradient(red, yellow);
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+#header{
+    padding-top: 45px;
+}
+.container  ul  img{
+width: 148px;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.navbar{
+    /* float: right; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.navbar   li a{
+color: rgb(168, 168, 168);
+text-decoration: none;
+
+}
+.navbar   li {
+    display: inline;
+    padding-right: 105px;
+}
+.item1{
+ padding-right: 19px;   
+}
+.signup{
+    font-weight: 700;
+    border: 2px solid #F53838;
+    padding: 10px 30px 10px 30px;
+    border-radius: 45px;
+    color: #F53838;
+}
+.signin{
+    font-size: 16px ;
+    font-weight: 800;
+    color: black;
+}
+
+/* infooooo */
+
+.info{
+    
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    list-style: none;
+}
+.info-content h1{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+span.laslesVPN {
+    font-weight: 700;
+}
+.info-text{
+    line-height: 2;
+    margin-bottom: 40px;
+    font-size: large;
+
+}
+
+.info-get{
+    margin-top: 30px;
+    position: absolute;
+    border: 2px solid #F53838;
+    padding: 20px 97px 20px 97px ;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    background-color: #F53838;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 29px #F53838;
+    font-size: 20;
+}
+.container .info-content img{
+    margin-right: 170px;
+    width: 595.37px;
+}
+
+
+
+
+.info2{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+.fatures-content h3 {
+    font-weight: 700px;
+    font-size: 34px;
+    list-style: none;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.fatures-content p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.fatures-content .click-items .click-item{
+   justify-content: space-between;
+   list-style: none;
+   line-height: 2.4;
+   align-items: center;
+}
+.fatures-content .click-items img{
+    width: 20px;
+    align-items: center;
+    
+}
+
+.container .info2 .img-item img{
+    margin-left: 80px;
+    width: 508.12px;
+}
+.container .fatures-content{
+    margin-right: 100px;
+}
+.border{
+    padding-bottom: 200px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 10px 30px 20px -10px rgba(196, 196, 196, 0.345);
+}
+.text-center{
+    text-align: center;
+}
+
+.text-center h3{
+
+font-size: 45px;
+margin-bottom: 20px;
+
+}
+.text-center p{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
+.card-div{
+    padding-top: 50px;
+   background-color: #FEFEFE;
+}
+.card .shop-title img{
+width: 144.9px;
+}
+
+.card-div .cards{
+    border: 2px solid rgb(204, 204, 204);
+    width: 28%;  
+    height: 760px;
+}
+.card{
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   /* text-align: center; */
+/* text-align: center; */
+   margin: 0px auto;
+}
+.card .cards .shop-title img {
+    margin-top: 90px;
+    width: 144.9px;
+    margin-bottom: 40px;
+    /* margin: auto; */
+    margin-left: 60px;
+}
+.card .cards .shop-title h3{
+margin-bottom: 50px;
+text-align: center;
+}
+.cards{
+    background-color: white;
+    display: grid;
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid #fEFEFE;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+.card .shop-items li {
+    list-style: none;
+    line-height: 2.5;
+
+
+
+}
+
+.card .shop-items li img{
+    width: 14.5px;
+    margin-right: 15px;    
+    margin-left: 30px;   
+}
+.cards .shop-buy{
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    margin-bottom: -10px;
+    padding-bottom: 55px ;
+}
+.cards .shop-buy h3{
+    margin-bottom: 30px;
+}
+.cards .shop-buy a{
+    text-decoration: none;
+    border: 1px solid #F53838;
+    padding: 6px 40px 6px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #F53838;
+    
+}
+.cards .shop-buy .active{
+background-color: #F53838;
+color: white;
+}
+.huge-text{
+    text-align: center;
+}
+.huge-text h1{
+    
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.huge-text p span{
+font-weight: 700;
+}
+.huge-text p{
+    line-height: 1.6;
+}
+.map img{
+    margin-top: 140px;
+}
+
+
+/* trusted */
+.trusted{
+    text-align: center;
+}
+.trusted h3{
+    font-size: 35px;
+  
+    font-weight: 600;
+    line-height: 1.5;
+}
+.trusted p{
+    font-weight: 500;
+    line-height: 1.7;
+}
+/* trusted */
+/* box2 */
+.box2-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box2-items .box2-item{
+   border: 1px solid rgb(185, 185, 185);
+   border-radius: 10px;
+   width: 35%;
+   height: 165px;
+   padding: 20px;
+
+   text-decoration: none;
+}
+.border1{
+    margin-right: 35px;
+}
+.box2-items .box2-item:hover{
+    border: 1px solid red;
+}
+.box2-items .border1{
+    border: 1px solid red;
+}
+.box2-items .border2{
+    margin-right: 35px;
+}
+.box2-items li {
+   list-style: none;
+}
+.box2-items .box2-item  img{
+    display:  flexbox;
+  width: 50px;
+  margin-top: 10px;  
+  margin-right: 15px;
+}
+.box-text{
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.box2-items .box-name{
+    font-weight: 700;
+    margin-top: 15px;
+}
+.box2-items .box-city{
+    margin-top: 15px;
+}
+.box2-items .conta{
+     display: flex;
+    align-items:  center;
+}
+.box2-items .box2-item .conta .star{
+    /* padding-left: 80px; */
+    /* padding-bottom: 20px; */
+    align-items: center;
+    display: flex;
+}
+.box2-items .box2-item .conta .star img{
+    width: 13.5px;
+}
+/* box2 */
+/* info */
+.info2{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    list-style: none;
+    border: 2px solid rgb(255, 211, 211);
+    align-items: center;
+    padding:40px ;
+    border-radius: 10px;
+    background-color: white;
+}
+.info2 h2{
+    font-size: 35px;
+    font-weight: 700;
+    /* color: turquoise; */
+    padding-bottom:15px ;
+}
+.info2 .subc{
+    border: 2px solid #F53838;
+    padding: 15px 50px 15px 50px;
+    margin-right: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: #F53838;
+    font-weight: 900;
+
+}
+/* info */
+
+/* info-end */
+.laslesvpn-items{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    list-style: none;
+}
+.laslesvpn-items .vpn1 img{
+    width: 35px;
+    margin-right: 8px;
+
+}
+.laslesvpn-items .vpn1 .conta{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.laslesvpn-items .vpn1 .conta span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.laslesvpn-items .vpn1  p{
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 500;
+margin-bottom: 30px;
+}
+.info2-icons{
+    display: flex;
+    list-style: none;
+    width: 180px;
+}  
+.info2-icons li{
+    box-shadow: 10px 30px 20px -10px rgba(196, 196, 196, 0.345);
+    margin-right: 15px;
+    width: 90px;
+}
+.laslesvpn-items .vpn2 h3{
+    /* line-height: 1.5; */
+    margin-bottom: 25px;
+}
+.laslesvpn-items .vpn2 p{
+    line-height: 2.8;
+}
+/* info-end */
